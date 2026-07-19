@@ -18,3 +18,7 @@ Thakc1 / Lead Project Manager
 
 a4xme / Lead Design Manager
 
+SharkFinPro / Creator of a libary used in this project
+
+https://github.com/SharkFinPro/razer-chroma-nodejs
+
