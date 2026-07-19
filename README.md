@@ -1,4 +1,4 @@
-#CFC – Chroma Fusion Core
+CFC – Chroma Fusion Core
 A modular, JSON‑driven RGB engine for Minecraft and future games.
 
 ⭐ Overview
@@ -58,43 +58,6 @@ overlay layers (temporary effects like explosions, combos, dopamine waves)
 ✔ Logging System
 All engine activity is logged inside:
 
-Code
-CFC/Log/
-✔ Future Game Support
-CFC is not Minecraft‑locked.
-The directory structure supports multiple games:
-
-Code
-CFC/JSON/Games/
-  MC/
-  BTG/
-  RCFM/
-  CSG/
-⭐ Architecture
-Code
-CFC/
-│
-├── Log/
-│   └── Latest-Log.txt
-│
-├── JSON/
-│   ├── Schema.json
-│   ├── Events/
-│   │   ├── Kill.json
-│   │   ├── Death.json
-│   │   └── Etc.json
-│   └── Games/
-│       ├── MC/
-│       ├── BTG/
-│       ├── RCFM/
-│       └── CSG/
-│
-├── Server/
-│   ├── server.js
-│   ├── config.json
-│   └── utils/
-│
-└── README.md
 ⭐ How It Works
 1. Mod sends JSON → CFC Server
 Example:
