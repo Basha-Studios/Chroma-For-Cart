@@ -1,0 +1,15 @@
+{
+    "title": "CFC Schema for lookup table",
+    "type": "object",
+
+    "description": "Schema for lookup table, so no doo dads can make a sh1t lookup table and break this sh1t",
+
+    "patternProperties": {
+        "^[A-Z0-9\\-]+$": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9\\-]+\\.json$"
+        }
+    },
+
+    "additionalProperties": false
+}
